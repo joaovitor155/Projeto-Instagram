@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #fafafa;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+
+.cellphone{
+    width: 450px;
+
+}
+
+div{
+    border: 1px solid #DBDBDB;
+    width: 450px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+
+button{
+    background-color: #0095f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+    height: 30px;
+    margin-top: 20px;
+
+}
+
+button:active{
+    opacity: 0.9;
+
+}
+
+input{
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 05px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.facebook{
+    text-align: center;
+    color: #385185;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.esqueceu-senha{
+    color: #385185;
+    cursor: pointer;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imagens{
+    position: relative;
+    right: 10%;
+    position: relative;
+    border: none;
+
+}
+
+.img-insta{
+    height: 520px;
+    position: absolute;
+    left: 192px;
+    top: 67px;
+    transition: ease-in-out;
+}
